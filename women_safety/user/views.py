@@ -3,7 +3,6 @@ from rest_framework.decorators import api_view
 from .models import women
 from .serializers import WomenSerializer
 from rest_framework.response import Response
-from sendotp import sendotp
 from random import randint
 import http.client
 import json
